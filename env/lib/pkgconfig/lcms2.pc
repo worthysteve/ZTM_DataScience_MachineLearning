@@ -1,0 +1,11 @@
+prefix=/Users/stevendaniel/Desktop/BOOT_CAMP_2024/ZTM_DataScience_MachineLearning/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: lcms2
+Description: LCMS Color Management Library
+Version: 2.12
+Libs: -L${libdir} -llcms2 
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}

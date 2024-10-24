@@ -1,0 +1,10 @@
+prefix=/Users/stevendaniel/Desktop/BOOT_CAMP_2024/ZTM_DataScience_MachineLearning/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libjpeg
+Description: Reads and writes JPEG files
+Version: 9.5.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

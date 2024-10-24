@@ -1,0 +1,11 @@
+prefix=/Users/stevendaniel/Desktop/BOOT_CAMP_2024/ZTM_DataScience_MachineLearning/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/webp
+
+Name: libsharpyuv
+Description: Library for sharp RGB to YUV conversion
+Version: 1.3.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -lsharpyuv
+Libs.private:   

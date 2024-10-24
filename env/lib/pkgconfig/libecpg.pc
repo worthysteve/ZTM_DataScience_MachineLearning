@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/Users/stevendaniel/Desktop/BOOT_CAMP_2024/ZTM_DataScience_MachineLearning/env/include
+Libs: -L/Users/stevendaniel/Desktop/BOOT_CAMP_2024/ZTM_DataScience_MachineLearning/env/lib -lecpg
+Libs.private: -L/Users/stevendaniel/Desktop/BOOT_CAMP_2024/ZTM_DataScience_MachineLearning/env/lib -lpgcommon -lpgport -lm

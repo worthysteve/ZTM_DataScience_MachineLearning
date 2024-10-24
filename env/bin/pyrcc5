@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/stevendaniel/Desktop/BOOT_CAMP_2024/ZTM_DataScience_MachineLearning/env/bin/python -m PyQt5.pyrcc_main ${1+"$@"}
